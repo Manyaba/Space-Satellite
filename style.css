@@ -1,0 +1,72 @@
+.space_img{
+    width: auto;
+    height: auto;
+}
+.line{
+    height: 6px;
+    background-color: rgb(255, 255, 255);
+    width:70px;
+    margin:8px auto;}
+    body{
+        text-align: center;
+        background-image: url("ESA_root_pillars.jpg");
+        width: auto;
+        height: auto;
+
+    }
+    p{
+        font-size:20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: white;
+    
+    }
+    h2{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 70;
+        font-weight:500;
+    }
+    .name{
+        font: size 40px;;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 800;
+        color:white;
+    }
+    .book{
+        cursor:pointer;
+        
+    }
+    .book hr{
+        margin-bottom: 10px;
+    }
+    .modal-content{
+        margin-top:100px;
+        text-align: center;
+    
+    }
+    .img_modal{
+        display:inline-block;
+        text-align: center;
+        
+    }
+
+    .img_outmodal{transition: transform .2s;
+    width: 800px;
+height: 400px;}
+    
+    .img_outmodal:hover{
+      transform: scale(0.9);
+    }
+
+    .p_modal{
+        margin-top: 10px;
+        text-align: center;
+        color: black;
+    }
+    
+#videos{
+    display: inline-block;
+}
+.yt_videos{
+    display: inline-block;
+}
